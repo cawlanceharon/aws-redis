@@ -1,0 +1,14 @@
+{
+  "name": "redis-nodejs-app",
+  "version": "1.0.0",
+  "description": "A Node.js app using Express and Redis with AWS ElastiCache",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "redis": "^4.2.0"
+  }
+}
